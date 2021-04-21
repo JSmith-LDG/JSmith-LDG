@@ -1,0 +1,27 @@
+# > name: Name of your framework
+# > weight: Describes how good you know the framework - values from 1 up to 5
+#
+# Example of a framework
+# - name: Framework
+#   weight: 5
+
+- name: LibGDX
+  weight: 5
+
+- name: Unity
+  weight: 5
+
+- name: Godot
+  weight: 4
+
+- name: Unreal Engine
+  weight: 3
+
+- name: Core
+  weight: 5
+
+- name: Roblox Studio
+  weight: 4
+
+- name: Gamemaker
+  weight: 3
