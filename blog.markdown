@@ -8,7 +8,7 @@ layout: default
 <article class="grid-container">
 {% for post in site.categories.blog %}
     <!-- <div class="grid-container"> -->
-        <a href="{{ site.baseurl }}/{{post.url}}">
+        <a href="{{ site.baseurl }}{{post.url}}">
             <h1>{{post.title}}</h1>
             <p>
                 {{post.excerpt}}
