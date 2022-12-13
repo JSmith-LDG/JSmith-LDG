@@ -13,9 +13,11 @@
             <li>
               <a class="page-link" href="{{ site.baseurl }}/">Home</a>
             </li>
+            {% if site.categories.blog %}
             <li>
               <a class="page-link" href="{{ site.baseurl }}/blog">Blog</a>
             </li>
+            {% endif %}
             <li>
               <a class="page-link" href="{{ site.baseurl }}/projects">Projects</a>
             </li>

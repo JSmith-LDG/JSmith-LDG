@@ -222,15 +222,7 @@
      padding-right: 5px;
      vertical-align: text-top;
  }
- 
- .social-media-list {
-   li + li {
-     padding-top: 5px;
-   }
- }
- 
- 
- 
+  
  /**
   * Tables
   */
@@ -260,10 +252,11 @@
  }
 
 .center {
-  margin: auto;
+  display: block;
+  margin-left: 28%;
+  margin-right: auto;
   width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+  padding: 8px;
 }
 
 .post {
