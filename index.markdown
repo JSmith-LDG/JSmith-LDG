@@ -6,20 +6,20 @@ layout: default
 
 --- 
 
-<h1><a href="/blog/">Latest Blog Post</a></h1>
+<h1><a href="{{ site.baseurl }}/blog/">Latest Blog Post</a></h1>
 <article class="grid-container">
     {% for post in site.categories.blog limit:2 %}
-    <a href="{{post.url}}">
+    <a href="{{ site.baseurl }}/{{post.url}}">
          <p>
             {{post.excerpt}}
         </p>
     </a>
     {% endfor %}
 </article>
-<h1><a href="/projects/">Projects</a></h1>
+<h1><a href="{{ site.baseurl }}/projects/">Projects</a></h1>
 <article class="grid-container">
     {% for post in site.categories.projects limit:4 %}
-    <a href="{{post.project_url}}">
+    <a href="{{ site.baseurl }}/{{post.project_url}}">
          <p>
             {{post.excerpt}}
         </p>
