@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Portals"
+date:   2022-12-07 08:53:32 +0800
+categories: blog
+excerpt_separator: <!--more-->
+---
+
+<div style="font-size: 10px">
+{{ page.date | date_to_long_string }}
+</div>
+
+<img class="post-img-center" src="/assets/img/tmp.jpg" width="460" height="215">
+
+<div>
+Growing up I enjoyed playing Spyro the Dragon on the PS1. With my child getting into gaming I put on the Spyro ReIgnited trilogy and she loves it. It got me thinking about how the portal worked and I set about trying to recreate the effect in Unity.
+<!--more-->
+</div>
+
+<div>
+middle paragraph
+</div>
+
+<div>
+bottom paragraph
+</div>
