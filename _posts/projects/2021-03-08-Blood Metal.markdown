@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 project_url: https://store.steampowered.com/app/1203650/Blood_Metal/
 ---
 
+<img class="post-img-center" src="{{ site.baseurl }}/assets/img/raid.jpg" width="460" height="215">
 <img class="post-img-center" src="{{ site.baseurl }}/assets/img/bm.jpg" width="460" height="215">
 
 <p class="post-text-center">Blood Metal is a brutal, experimental, single-player project featuring a full body-destruction model. Experience uncensored 3D gore blended with relentless action. Welcome to Blood Metal. </p>
