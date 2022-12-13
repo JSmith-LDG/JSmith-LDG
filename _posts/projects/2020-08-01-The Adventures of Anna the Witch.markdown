@@ -6,7 +6,7 @@ categories: projects
 excerpt_separator: <!--more-->
 ---
 
-<img class="post-img-center" src="{{ site.baseurl }}/assets/img/aw.png" width="460" height="215">
+<img class="post-img-center" src="{{ site.baseurl }}assets/img/aw.png" width="460" height="215">
 
 <p class="post-text-center">I created this game for my child to play since she was fascinated by witches and was going through a phase where she wanted to be a witch. It is a sidescrolling adventure where a young witch must find ingredients for a potion.</p>
 <!--more-->

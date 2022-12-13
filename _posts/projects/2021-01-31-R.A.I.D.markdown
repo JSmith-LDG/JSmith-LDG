@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 project_url: https://www.coregames.com/games/3b6dfe/apocalypse
 ---
 
-<img class="post-img-center" src="{{ site.baseurl }}/assets/img/raid.jpg" width="460" height="215">
+<img class="post-img-center" src="{{ site.baseurl }}assets/img/raid.jpg" width="460" height="215">
 
 <p class="post-text-center">R.A.I.D. is an open world survival game inspired by S.T.A.L.K.E.R. and Escape from Tarkov. You survive deep in an underground bunker, along with your guild of scavengers and raiders. Embark on missions and search for gear, loot, and supplies. Watch out for other players and scavengers... not everyone is friendly.</p>
 <!--more-->
