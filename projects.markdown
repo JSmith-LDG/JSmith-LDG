@@ -3,6 +3,10 @@ layout: default
 title: Projects
 --- 
 
+<div class="breadcrumbs">
+    <a href="/">Home</a>>Projects
+</div>
+
 <article class="grid-container">
 {% for post in site.categories.projects %}
     <!-- <div class="grid-container"> -->
