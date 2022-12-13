@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 {{ page.date | date_to_long_string }}
 </div>
 
-<img class="post-img-center" src="/assets/img/tmp.jpg" width="460" height="215">
+<img class="post-img-center" src="{{ site.baseurl }}/assets/img/tmp.jpg" width="460" height="215">
 
 <div>
 Growing up I enjoyed playing Spyro the Dragon on the PS1. With my child getting into gaming I put on the Spyro ReIgnited trilogy and she loves it. It got me thinking about how the portal worked and I set about trying to recreate the effect in Unity.
