@@ -20,24 +20,100 @@
 
 title: James Smith
 email: jamessmith94135@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-#baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://jsmith-ldg.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+description: Software Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jsmith-ldg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  JSmith-LDG
 linkedin_username: james-s-66067b176
 author: James Smith
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 defaults:
 - scope:
     path: "assets/img"
   values:
     image: true
+
+  # Skills
+skills:
+  - Java
+  - C#
+  - Kotlin
+  - Python
+  - Lua
+  - Android
+  - Rust
+  - Typescript
+  - Verse
+  - Unity
+  - Unreal Engine
+  - LibGDX
+  - Godot
+  - Git
+  - UEFN
+  - Roblox
+
+collections:
+  projects:
+    output: true
+  games:
+    output: true
+# Projects (optional)
+# projects:
+#   - title: Iron Armada
+#     url: /projects/iron Armada
+#     image: assets/img/ia.jpg
+#     description: Iron Armada is a multiplayer, space-faring combat game where players must team up to build a fleet of ships in order to survive the perils of space and defeat the opposing player faction. Build ships of all shapes and sizes, mine resources, and scavenge parts with friends to conquer the universe!
+#     date: 2021-03-08
+#   - title: CORECOM
+#     url: /projects/CORECOM
+#     image: assets/img/cc.jpg
+#     description: Team based tactical shooter. Work together with your team to obtain the bomb and destroy the enemy's base.
+#     date: 2020-08-01
+#   - title: R.A.I.D
+#     url: /projects/R.A.I.D
+#     image: assets/img/raid.jpg
+#     description: R.A.I.D. is an open world survival game inspired by S.T.A.L.K.E.R. and Escape from Tarkov. You survive deep in an underground bunker, along with your guild of scavengers and raiders. Embark on missions and search for gear, loot, and supplies. Watch out for other players and scavengers... not everyone is friendly.
+#     date: 2021-01-31
+#   - title: Blood Metal
+#     url: /projects/Blood Metal
+#     image: assets/img/bm.jpg
+#     description: Blood Metal is a brutal, experimental, single-player project featuring a full body-destruction model. Experience uncensored 3D gore blended with relentless action. Welcome to Blood Metal.
+#     date: 2021-03-08
+#   - title: Fraz Domination
+#     url: /projects/Fraz Domination
+#     image: assets/img/fd.jpeg
+#     description: Red v Blue domination game based around TrashLand's shadiest soft drinks brand. Grab a weapon and help your team dominate the Fraz pipeline. First team to fill their Fraz tank wins.
+#     date: 2023-11-23
+#   - title: Studio Smackdown
+#     url: /projects/StudioSmackdown
+#     image: assets/img/mkbhd.jpg
+#     description: Brief description of project 2.
+#     date: 2023-08-25
+#   - title: Fraz Blast
+#     url: /projects/Fraz Blast
+#     image: assets/img/fb.jpeg
+#     description: The UnderGrounders and True Believers have organised a good old fashioned Blast Off in the depths of the ruined Fraz factory. The rules for this traditional match are simple. Blast your opponent off his platform and into the river of goop below.
+#     date: 2023-09-21
+#   - title: Nakoo Box Fight
+#     url: /projects/Nakoo Boxfight PVP
+#     image: assets/img/nk.jpeg
+#     description: Traditional Box Fight map in collaboration with top spanish ESports player Nakoo.
+#     date: 2024-01-12
+#   - title: Sentience
+#     url: /projects/Sentience
+#     image: assets/img/sentience.png
+#     description: Iron Armada is a multiplayer, space-faring combat game where players must team up to build a fleet of ships in order to survive the perils of space and defeat the opposing player faction. Build ships of all shapes and sizes, mine resources, and scavenge parts with friends to conquer the universe!
+#     date: 2024-08-14
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -47,14 +123,14 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,19 @@
+$primary-color-light: #3498db;
+$secondary-color-light: #2ecc71;
+$text-color-light: #333;
+$background-color-light: #f9f9f9c2;
+$border-color-light: #ccc;
+
+$primary-color-dark: #000;
+$secondary-color-dark: #27ae60;
+$text-color-dark: #f9f9f9;
+$background-color-dark: #333;
+$border-color-dark: #555;
+
+$primary-color-darken-hover: darken($primary-color-dark, 10%);
+$primary-color-darken-active: darken($primary-color-dark, 20%);
+
+$secondary-color-darken-hover: darken($secondary-color-dark, 10%);
+$secondary-color-darken-active: darken($secondary-color-dark, 20%);
+
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
